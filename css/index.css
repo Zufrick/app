@@ -6,6 +6,7 @@
     --spacing-small: 10px;
     --spacing-middle: 15px;
     --spacing-large: 30px;
+    --spacing-very-large: 40px;
     --border-radius: 5px;
     --box-shadow: 6px 8px 13px -1px rgba(34, 60, 80, 0.2);
     --linear-gradient-right: linear-gradient(90deg, rgb(152, 207, 195), rgb(86, 181, 184));
