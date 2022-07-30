@@ -1,0 +1,13 @@
+.header-container{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    padding: var(--spacing-middle);
+    background-color: var(--color-light-gray);
+}
+.header-counter {
+    margin-left: auto;
+    padding-right: var(--spacing-small);
+    font-weight: bold;
+    cursor: pointer;
+}

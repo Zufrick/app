@@ -1,0 +1,37 @@
+:root {
+    --color-white: #fff;
+    --color-light-gray: #d7d7d7;
+    --color-black: #000000;
+    --color-sky: #53FFC8;
+    --spacing-small: 10px;
+    --spacing-middle: 15px;
+    --spacing-large: 30px;
+    --border-radius: 5px;
+    --box-shadow: 6px 8px 13px -1px rgba(34, 60, 80, 0.2);
+    --linear-gradient-right: linear-gradient(90deg, rgb(152, 207, 195), rgb(86, 181, 184));
+    --linear-gradient-left: linear-gradient(270deg, rgb(152, 207, 195), rgb(86, 181, 184));
+    --linear-gradient-main: linear-gradient(135deg, rgb(72, 195, 214), rgb(143, 195, 197));
+}
+::-webkit-scrollbar{
+    width: 8px; 
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-black);
+    border-radius: var(--border-radius);
+}
+::-webkit-slider-track{
+    background-color: var(--color-white);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: var(--linear-gradient-main)
+}
+p {
+    margin: 0;
+}
