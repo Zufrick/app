@@ -6,7 +6,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    padding: var(--spacing-large);
+    padding: var(--spacing-very-large) var(--spacing-large);
     background-color: var(--color-white);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
